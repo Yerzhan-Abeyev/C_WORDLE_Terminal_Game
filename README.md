@@ -33,7 +33,7 @@ Requirements:
 
 Installation:
 
- - git clone '<repository-url>'
+ - git clone 'repository-url'
    cd C_WORDLE_Terminal_Game
  
  - Ensure the word dictionary files are present:
