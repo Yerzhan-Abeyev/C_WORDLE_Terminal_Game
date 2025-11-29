@@ -33,8 +33,8 @@ Requirements:
 
 Installation:
 
- - git clone <repository-url>
-   cd wordle
+ - git clone '<repository-url>'
+   cd C_WORDLE_Terminal_Game
  
  - Ensure the word dictionary files are present:
 
