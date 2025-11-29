@@ -128,6 +128,7 @@ void receiveWord(char* guessedWord, FILE *fp){
         
         if(strcmp(word,guessedWord)== 0){
             guessed = 1;
+          free(temp);
             break;}
         free(temp);
     }
