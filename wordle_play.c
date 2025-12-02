@@ -126,12 +126,13 @@ void receiveWord(char* guessedWord, FILE *fp){
         gameScreen(fpView, count, word, color);
         
         
+        
         if(strcmp(word,guessedWord)== 0){
             guessed = 1;
-          free(temp);
             break;}
         free(temp);
     }
+    free(word)
     fclose(fpView);
     resultScreen(guessed, guessedWord);
 }
